@@ -5,10 +5,9 @@ import org.springframework.stereotype.Service;
 @Service("English")
 public class EnglishSpellChecker implements SpellChecker {
 
-	@Override
-	public String checkSpell(String text) {		
-		return "Checked with english checker:"+text;
-	}
+    @Override
+    public String checkSpell(String text) {
+        return "Checked with english checker:" + text;
+    }
 
-        
 }
